@@ -30,7 +30,7 @@ class _HomeState extends State<Home> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Text("Age Calculator"),  
+          title: Text("Age Calculator"),
           centerTitle: true,
           backgroundColor: Colors.blueGrey.shade900,
           leading: Container(),
