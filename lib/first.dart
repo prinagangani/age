@@ -32,7 +32,7 @@ class _HomeState extends State<Home> {
         appBar: AppBar(
           title: Text("Age Calculator"),
           centerTitle: true,
-          backgroundColor: Colors.blueGrey.shade900,
+          backgroundColor: Colors.grey.shade800,
           leading: Container(),
         ),
         body: SingleChildScrollView(
@@ -241,7 +241,7 @@ class _HomeState extends State<Home> {
                             decoration: BoxDecoration(
                               borderRadius:
                               BorderRadius.all(Radius.circular(5)),
-                              border: Border.all(color: Colors.blue.shade900),
+                              border: Border.all(color: Colors.blue),
                             ),
                             alignment: Alignment.center,
                             child: Text(
@@ -297,10 +297,10 @@ class _HomeState extends State<Home> {
                             height: 30,
                             width: 50,
                             decoration: BoxDecoration(
-                              color: Colors.blueGrey.shade700,
+                              color: Colors.grey.shade500,
                               borderRadius:
                               BorderRadius.all(Radius.circular(5)),
-                              border: Border.all(color: Colors.blue.shade900),
+                              border: Border.all(color: Colors.blue),
                             ),
                             alignment: Alignment.center,
                             child: Text(
@@ -324,8 +324,7 @@ class _HomeState extends State<Home> {
                     width: double.infinity,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(5)),
-                        gradient: LinearGradient(
-                            colors: [Colors.blueGrey, Colors.blue])),
+                        color: Colors.grey.shade600),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -398,8 +397,7 @@ class _HomeState extends State<Home> {
                     width: double.infinity,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(5)),
-                      gradient: LinearGradient(
-                          colors: [Colors.blue, Colors.blueGrey]),
+                      color: Colors.grey.shade600,
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
